@@ -638,6 +638,19 @@ footer p {
         order: 3;
     }
 
+    .hero-heading,
+    .section-heading {
+        font-size: 30px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .overlay-list li a {
+        font-size: 2rem;
+    }
+
     .Hero,
     .Projects,
     .Skills,
@@ -650,7 +663,7 @@ footer p {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .Hero .hero-div {
         width: 80%;
         align-items: center;
