@@ -650,8 +650,9 @@ footer p {
         flex-direction: column;
         text-align: center;
     }
-
+    
     .Hero .hero-div {
+        width: 80%;
         align-items: center;
     }
 
@@ -666,7 +667,7 @@ footer p {
     }
 
     .card {
-        width: 80%;
+        width: 100%;
         align-items: center;
         text-align: center;
     }
