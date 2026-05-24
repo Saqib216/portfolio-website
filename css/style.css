@@ -236,7 +236,8 @@ body {
 }
 
 .cards-div {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
 }
 
@@ -292,6 +293,27 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 600;
+}
+
+.card1 {
+    position: relative;
+    overflow: hidden;
+}
+
+#new {
+    position: absolute;
+    top: 6px;
+    right: 12px;
+    color: #0f172a;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: #8B5CF6;
+    animation: neonPulse 2s infinite ease-in-out;
+    z-index: 10;
 }
 
 /* 5. Buttons */
@@ -554,20 +576,26 @@ footer p {
         /* float state */
     }
 
-    /* Spotify Green: */
+    /* AI Text Toolkit Purple: */
     .card1:hover {
-        border-color: #1DB954;
+        border-color: #8B5CF6;
+        box-shadow: 0 10px 30px rgba(139, 92, 246, 0.15);
+    }
+
+    /* Spotify Green: */
+    .card2:hover {
+        border-color: #1db954;
         box-shadow: 0 10px 30px rgba(29, 185, 84, 0.15);
     }
 
     /* Netflix Red: */
-    .card2:hover {
+    .card3:hover {
         border-color: #E50914;
         box-shadow: 0 10px 30px rgba(229, 9, 20, 0.15);
     }
 
     /* Currency Blue: */
-    .card3:hover {
+    .card4:hover {
         border-color: #38bdf8;
         box-shadow: 0 10px 30px rgba(56, 189, 248, 0.15);
     }
@@ -675,6 +703,7 @@ footer p {
     }
 
     .cards-div {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -688,5 +717,18 @@ footer p {
     .contact-links {
         flex-direction: column;
         gap: 10px;
+    }
+}
+
+@keyframes neonPulse {
+    0%,
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(139, 92, 246, 0.4);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(139, 92, 246, 0.8);
     }
 }
