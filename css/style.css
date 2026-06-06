@@ -430,6 +430,7 @@ body {
 .contact-links {
     display: flex;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 .contact-links a {
@@ -715,12 +716,12 @@ footer p {
     }
 
     .contact-links {
-        flex-direction: column;
         gap: 10px;
     }
 }
 
 @keyframes neonPulse {
+
     0%,
     100% {
         transform: scale(1);
