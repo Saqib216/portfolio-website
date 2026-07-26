@@ -19,25 +19,24 @@ Frontend Developer & CS student currently learning backend development. This por
 ### 1. AI Text Toolkit ✦ `New`
 Real-time text processing with 6 AI modes (Summarize, Fix Grammar, Formal/Casual Rewrite, Translate, Extract Points) powered by Gemini 2.5 Flash API.
 - **Tech:** HTML, CSS, JS, Gemini API
-- **Demo:** [ai-text-toolkit.netlify.app](https://ai-text-toolkit.netlify.app)
+- **Demo:** [ai-text-toolkit-opal.vercel.app](https://ai-text-toolkit-opal.vercel.app)
 - **Code:** [GitHub](https://github.com/Saqib216/AI-Text-Toolkit)
 
-### 2. Spotify Clone
+### 2. SoundPulse - Spotify Inspired
 Fully functional music player with playbar, playlist switching, seek bar, volume control, and dynamic song loading from JSON files.
 - **Tech:** HTML, CSS, JS
-- **Demo:** [saqib-spotify.netlify.app](https://saqib-spotify.netlify.app)
-- **Code:** [GitHub](https://github.com/Saqib216/spotify-clone)
+- **Demo:** [soundpulse-nine.vercel.app](https://soundpulse-nine.vercel.app)
+- **Code:** [GitHub](https://github.com/Saqib216/soundpulse)
 
 ### 3. Netflix Clone
 Netflix-style landing page with hero banner, feature cards, FAQ section, responsive layout, and multiple CTAs.
 - **Tech:** HTML, CSS
-- **Demo:** [saqib-flix.netlify.app](https://saqib-flix.netlify.app)
 - **Code:** [GitHub](https://github.com/Saqib216/netflix-clone)
 
 ### 4. Currency Converter
 Real-time currency conversion for 150+ currencies using a live exchange rate API, with auto-updating country flags.
 - **Tech:** HTML, CSS, JS, API
-- **Demo:** [saqib-curr.netlify.app](https://saqib-curr.netlify.app)
+- **Demo:** [currency-converter-sleek.vercel.app/](https://currency-converter-sleek.vercel.app/)
 - **Code:** [GitHub](https://github.com/Saqib216/currency-converter)
 
 ---
@@ -49,7 +48,7 @@ Real-time currency conversion for 150+ currencies using a live exchange rate API
 - **Overlay Navigation** — Full-screen mobile menu with large uppercase links
 - **Per-Card Brand Colors** — Each project card glows in its project's brand color on hover:
   - AI Text Toolkit → Purple (`#8B5CF6`)
-  - Spotify Clone → Green (`#1DB954`)
+  - SoundPulse → Green (`#1DB954`)
   - Netflix Clone → Red (`#E50914`)
   - Currency Converter → Blue (`#38bdf8`)
 - **"New" Badge** — Animated neon pulse badge on latest project card
@@ -64,7 +63,7 @@ Real-time currency conversion for 150+ currencies using a live exchange rate API
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Fonts:** Fontshare — Clash Display (headings) + Satoshi (body)
 - **Icons:** Font Awesome 7
-- **Hosting:** Netlify
+- **Hosting:** Vercel
 
 ---
 
