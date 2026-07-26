@@ -4,7 +4,7 @@ A clean, dark-themed developer portfolio showcasing 4 frontend projects. Built w
 
 ## 🌐 Live Demo
 
-[saqib-portfo.netlify.app](https://saqib-portfo.netlify.app)
+[saqib-hussnain.vercel.app](https://saqib-hussnain.vercel.app/)
 
 ---
 
